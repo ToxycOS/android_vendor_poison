@@ -17,3 +17,6 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
 # Include Themes
 include vendor/poison/themes/themes.mk
+
+# Include Fonts
+include vendor/poison/fonts/fonts.mk
